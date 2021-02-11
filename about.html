@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Nicanor" />
+    <meta name="description" content="landing page" />
+    <link rel="shortcut icon" href="images/f45logo.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Lato|Parisienne" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="navbar.css" />
+    <link rel="stylesheet" type="text/css" href="pages.css" />
+    <title>F45</title>
+
+</head>
+<body>
+  <!-- NAVBAR -->
+  <div class="nav">
+      <div class="logo">
+          <a href="index.html"><img src='images/f45logo.png'/></a>
+      </div>
+      <ul>
+        <li><a class="nav-link" href="about.html">About</a></li>
+        <li><a class="nav-link" href="class.html">Classes</a></li>
+        <li><a class="nav-link" href="location.html">Find A Studio</a></li>
+      </ul>
+  </div>
+
+  <!-- IMAGE HEADER -->
+  <div class="header-img">
+    <div class="header-text">
+      <h1>ABOUT F45</h1>
+      <p>THE F STANDS FOR FUNCTIONAL TRAINING, A MIX OF CIRCUIT AND HIIT STYLE WORKOUTS GEARED TOWARDS EVERYDAY MOVEMENT. 45 IS THE TOTAL AMOUNT OF TIME FOR SWEAT-DRIPPING, HEART-PUMPING FUN.</p>
+    </div>
+    <img src="images/gym1.jpg" alt="">
+  </div>
+
+
+  <table id="about">
+    <!-- SECTION 1: FIRST DAY OF TRAINING? -->
+    <tr id="about-intro">
+      <td colspan="2">
+        <h2>FIRST </br>
+            DAY </br>
+            OF </br>
+            TRAINING?
+        </h2>
+        <div id="about-rectangle">
+        </div>
+      </td>
+      <td>
+        <p>THE F STANDS FOR FUNCTIONAL TRAINING, A MIX OF CIRCUIT AND HIIT STYLE WORKOUTS GEARED TOWARDS EVERYDAY MOVEMENT. 45 IS THE TOTAL AMOUNT OF TIME FOR SWEAT-DRIPPING, HEART-PUMPING FUN. THE F STANDS FOR FUNCTIONAL TRAINING, A MIX OF CIRCUIT AND HIIT STYLE WORKOUTS GEARED TOWARDS EVERYDAY MOVEMENT.</p>
+      </td>
+    </tr>
+
+    <!-- SECTION 2: CLASSES OVERVIEW -->
+    <tr id="about-class">
+      <!-- CARDIO -->
+      <td colspan="3" >
+        <div class="about-class-shape" style="  margin-left: 17%;">
+          <div class="about-circle">
+            <img src="images/about-cardio.png" alt="">
+          </div>
+          <div class="about-rectangle">
+            <h2>CARDIO</h2>
+            <p>THE F STANDS FOR FUNCTIONAL TRAINING, A MIX OF CIRCUIT AND HIIT STYLE WORKOUTS GEARED TOWARDS EVERYDAY MOVEMENT. 45 IS THE TOTAL AMOUNT OF TIME FOR SWEAT-DRIPPING, HEART-PUMPING FUN.</p>
+          </div>
+        </div>
+
+        <!-- RESISTANCE -->
+        <div class="about-class-shape">
+          <div class="about-circle">
+            <img src="images/about-resist.png" alt="">
+          </div>
+          <div class="about-rectangle">
+            <h2>RESISTANCE</h2>
+            <p>THE F STANDS FOR FUNCTIONAL TRAINING, A MIX OF CIRCUIT AND HIIT STYLE WORKOUTS GEARED TOWARDS EVERYDAY MOVEMENT. 45 IS THE TOTAL AMOUNT OF TIME FOR SWEAT-DRIPPING, HEART-PUMPING FUN.</p>
+          </div>
+        </div>
+
+        <!-- STRENGTH TRAINING -->
+        <div class="about-class-shape">
+          <div class="about-circle">
+            <img src="images/about-strength.png" style="width: 180px; margin-left: 33px;"alt="">
+          </div>
+          <div class="about-rectangle">
+            <h2>STRENGTH TRAINING</h2>
+            <p>THE F STANDS FOR FUNCTIONAL TRAINING, A MIX OF CIRCUIT AND HIIT STYLE WORKOUTS GEARED TOWARDS EVERYDAY MOVEMENT. 45 IS THE TOTAL AMOUNT OF TIME FOR SWEAT-DRIPPING, HEART-PUMPING FUN.</p>
+          </div>
+        </div>
+      </td>
+    </tr>
+
+    <!-- SECTION 3: VIEW ALL CLASSES -->
+    <tr>
+      <td colspan="3" style="text-align: center;">
+        <a href="class.html"><button type="button" name="view-classes">VIEW ALL CLASSES</button>
+      </td>
+    </tr>
+  </table>
+
+
+
+  <script type="text/javascript">
+  $(window).scroll(function(){
+            if($(this).scrollTop() > 10){
+                $('.nav').addClass('sticky')
+            } else{
+                $('.nav').removeClass('sticky')
+            }
+        });
+  </script>
+</body>
+</html>

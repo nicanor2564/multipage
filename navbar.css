@@ -1,0 +1,88 @@
+body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+}
+
+footer{
+  font-family: 'Lato';
+  text-align: center;
+  font-size: 10px;
+  opacity: 0.3;
+  margin-top: 30px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+section{
+    height: 300px;
+}
+
+
+.nav{
+    background: #1E3B5D;
+    color: #FFF;
+    display: flex;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    width: 100%; /* Full width */
+    opacity: 0.9;
+}
+.nav .logo{
+    padding: 20px;
+    margin-left: 45px;
+}
+
+.nav img{
+  width: 100px;
+  margin-bottom: -10px;
+}
+.nav .logo a{
+    color: #FFF;
+    text-decoration: none;
+}
+.nav ul{
+    display: flex;
+    width: 37%;
+    margin-left: auto;
+}
+
+ul li{
+    padding: 28px 35px 0 35px;
+    list-style: none;
+    /* padding-top: 25px; */
+
+}
+ul li a{
+    color: #FFF;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*animate nav bar link*/
+
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}

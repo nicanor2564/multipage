@@ -1,0 +1,270 @@
+.header-img {
+    position: relative;
+    overflow: hidden;
+    height: 320px;
+    color: white;
+    background-color: black;
+    margin-top: 108px;
+}
+
+.header-img img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.header-text{
+    padding: 100px;
+    position: relative;
+    z-index: 2;
+    width: 70%;
+    left: 8%;
+}
+
+.header-text h1{
+  text-align: center;
+  margin-top: -30px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+}
+
+.header-text p{
+  font-family: 'Lato';
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 2px;
+
+}
+
+/********************* ABOUT F45 **********************/
+#about{
+  margin: 10px 50px 10px 50px;
+  color: #4B627E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#about-intro p{
+  letter-spacing: 1px;
+  line-height: 40px;
+}
+#about-intro h2{
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 80px;
+}
+#about-rectangle{
+  width: 550px;
+  height: 6px;
+  background: #1E3B5D;
+  margin-top: -20px;
+  margin-left: -30px;
+}
+
+
+/***** CLASSES OVERVIEW *****/
+
+.about-class-shape{
+  margin-top: 50px;
+  float: left;
+  margin-right: 70px;
+}
+
+.about-circle{
+  width: 230px;
+  height: 190px;
+  background: #F7F7F7;
+  border-radius: 50%;
+  margin-bottom: -105px;
+  margin-left: 56px;
+}
+
+.about-circle img{
+  width: 120px;
+  margin: 40px 63px;
+}
+
+.about-rectangle{
+  width: 340px;
+  height: 440px;
+  background: #F7F7F7;
+}
+
+.about-rectangle h2{
+  font-family: 'Raleway', sans-serif;
+  padding-top: 110px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.about-rectangle p{
+  text-align: center;
+  margin: 20px;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+#about button{
+  background-color: white;
+  color: red;
+  border: 2px solid #f44336;
+  transition-duration: 0.4s;
+  width: 240px;
+  height: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+#about button:hover{
+  background-color: #f44336;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+}
+
+/********************* CLASSES **********************/
+#class{
+  margin: 10px 50px 10px 50px;
+  color: #0A2463;
+  font-family: 'Montserrat', sans-serif;
+}
+#class-intro > td{
+  width: 50%;
+}
+
+#class-intro p{
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+#class-intro h2{
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 200px;
+}
+#class-rectangle{
+  width: 380px;
+  height: 5px;
+  background: red;
+  margin-top: -20px;
+  margin-left: -80px;
+}
+#workout-redline{
+  margin: 10px;
+  width: 30px;
+  height: 3px;
+  background: red;
+  margin-top: -15px;
+}
+#class-workout{
+  margin: 10px 50px 10px 50px;
+  color: red;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#class-workout p{
+  letter-spacing: 1px;
+  line-height: 30px;
+  color:#4B627E;
+}
+
+#class-workout h2{
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+}
+#class-border{
+  width: 1px;
+  height: 80px;
+  background: red;
+  margin-top: -100px;
+  margin-left: 170px;
+}
+/*FOR THE BOXES*/
+.workout-rectangle{
+  width: 300px;
+  height: 750px;
+  background: #F7F7F7;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D3D3D3;
+  margin-left: 70px;
+}
+
+.workoutlogo{
+    text-align: center;
+}
+.workoutlogo img{
+  margin:20px;
+  width: 250px;
+}
+#workouts{
+  margin: 10px 50px 10px 50px;
+  color: #0A2463;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#workouts p{
+  margin: 20px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  color:#4B627E;
+  font-size: 14px;
+}
+
+#workouts h2{
+  margin: 20px;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+/****************locations********************/
+.location-rectangle{
+  width: 400px;
+  height: 850px;
+  background: #F7F7F7;
+  margin-right: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D3D3D3;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin: 20px;
+}
+.location img{
+  margin: 10px;
+  width: 380px;
+  height: 280px;
+}
+#location{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#loc-table{
+  margin: 10px 50px 10px 50px;
+  color: #0A2463;
+}
+
+#location p{
+  letter-spacing: 1px;
+  line-height: 25px;
+  color:#4B627E;
+}
+
+#location h2{
+  font-size: 23px;
+  font-family: 'Raleway', sans-serif;
+}
+#locationline{
+  width: 100%;
+  height: 2px;
+  background: #0A2463;
+  margin-top: -15px;
+}
+body {
+overflow: scroll;
+}
